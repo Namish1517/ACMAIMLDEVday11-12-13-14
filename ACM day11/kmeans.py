@@ -31,3 +31,8 @@ plt.legend()
 plt.show()
 for i in range(optimal_k):
     print(f"Cluster {i}: {np.sum(y_pred==i)} points")
+'''
+Cluster 0: 76 points
+Cluster 1: 75 points
+Cluster 2: 75 points
+Cluster 3: 74 points'''
